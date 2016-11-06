@@ -1,0 +1,14 @@
+Proceso IgualDiferente
+	Definir N1,N2 Como Entero;
+	N1<-0;
+	N2<-0;
+	Escribir "digite N1";
+	Leer N1;
+	Escribir "digite N2";
+	Leer N2;
+	si N1=N2 Entonces
+		Escribir "Iguales";
+	Sino
+		Escribir "diferentes";
+	FinSi
+FinProceso

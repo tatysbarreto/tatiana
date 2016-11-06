@@ -1,0 +1,26 @@
+Proceso calculodesalariosyhorasextras
+	//Ht=horas trabajadas;He=horas extras;Ph=presio por hora;
+	//Pth=presio total de horas trabajadas hasta 40 horas;
+	//Phe=presio horas extras, St=salario total.
+	Definir Ht, He, Ph, Pth, Phe, St Como Entero;
+	Ht<-0;
+	Ph<-0;
+	He<-0;
+	Escribir "digite horas trabajadas";
+	Leer Ht;
+	Escribir " digite presio de la hora";
+	Leer Ph;
+	si Ht<=40 Entonces
+		Pht<-Ht*Ph;
+		Escribir "el salario total es", Pht;
+	Sino
+		si Ht>=41 Entonces
+			He<-Ht-40;
+			Phe<-(Ph*He)*1.5;
+			Pth<-Ht*Ph;
+			st<-(Pth+Phe);
+			Escribir "el salario totatl es"," ", St;
+		FinSi
+	FinSi
+	
+FinProceso

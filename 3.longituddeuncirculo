@@ -1,0 +1,10 @@
+Proceso longituddeuncirculo
+	Definir l Como Real;
+	Definir radio Como Real;
+	l<-0;
+	radio<-0;
+	Escribir "dijitar el radio del circulo";
+	Leer radio;
+	l<-(2*(pi*radio));
+	Escribir "la longitud del circulo es",l;
+FinProceso

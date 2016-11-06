@@ -1,0 +1,127 @@
+Proceso silafechaescorrectaono
+	Definir dia,mes,ano Como Entero;
+	dia<-0;
+	mes<-0;
+	ano<-0;
+	escribir "digite numero del dia";
+	leer dia;
+	escribir "digite numero del mes";
+	leer mes;
+	escribir "digite numero del año";
+	leer ano;
+	Si dia < 31 y mes =1 Entonces
+		Escribir  "el fecha es :","dia",dia,"enero", ano; 
+	Sino
+		si dia>31 y mes=1 Entonces
+			Escribir  "la fecha es incorrecta";
+		Sino
+			si dia <28 y mes =2 Entonces
+				Escribir  "el fecha es :","dia",dia,"febrero", ano;
+			Sino
+				si dia>28 y mes =2 Entonces
+					Escribir  "la fecha es incorrecta";
+				sino 
+					si dia<31 y mes =3 Entonces
+						Escribir  "el fecha es :","dia",dia,"marzo", ano;
+					Sino
+						si dia> 31 y mes =3 Entonces
+							escribir "la fecha es incorrecta";
+						Sino
+							
+							si dia <30 y mes =4 Entonces
+								Escribir  "el fecha es :","dia",dia,"abril",ano;
+							sino
+								si dia>30 y mes =4 Entonces
+									escribir "la fecha es incorrecta";
+								Sino
+									si dia<31 y mes =5 Entonces
+										Escribir  "el fecha es :","dia",dia,"mayo",ano;	
+									Sino
+										si dia>31 y mes=5 Entonces
+											escribir "la fecha es incorrecta";
+										sino 
+											si dia <30 y mes =6 Entonces
+												Escribir  "el fecha es :","dia",dia,"junio",ano;
+											Sino
+												si dia>30 y mes =6 Entonces
+													escribir "la fecha es incorrecta";
+												Sino
+													si dia <31 y mes =7 Entonces
+														
+														Escribir  "el fecha es :","dia",dia,"julio",ano;
+													Sino
+														si dia>31 y mes=7 Entonces
+															
+															escribir "la fecha es incorrecta";
+														Sino
+															si dia <31 y mes=8 entonces
+																
+																Escribir  "el fecha es :","dia",dia,"agosto",ano;
+															Sino
+																si dia >31 y mes =8 Entonces
+																	
+																	escribir "la fecha es incorrecta";
+																Sino
+																	si dia<30 y mes =9 entonces
+																		Escribir  "el fecha es :","dia",dia, "septiembre",ano;
+																	Sino
+																		si dia>30 y mes =9 Entonces
+																			
+																			escribir "la fecha es incorrecta";
+																		Sino
+																			si dia<31 y mes =10 entonces
+																				
+																				Escribir  "el fecha es :","dia",dia,"octubre",ano;
+																			Sino
+																				si dia>31 y mes =10 entonces
+																					
+																					escribir "la fecha es incorrecta";
+																				Sino
+																					si dia<30 y mes =11 Entonces
+																						
+																						Escribir  "el fecha es :","dia",dia,"noviembre",ano;
+																					Sino
+																						si dia>30 y mes =10 Entonces
+																							
+																							escribir "la fecha es incorrecta";
+																						Sino
+																							si dia <31 y mes =12 entonces
+																								Escribir  "el fecha es :","dia",dia,"diciembre",ano;
+																							Sino
+																								si dia>31 y mes =12 Entonces
+																									
+																									escribir "la fecha es incorrecta";
+																								Sino
+																									si mes>12 Entonces
+																										escribir "la fecha es incorrecta";
+																									FinSi
+																									
+																								FinSi
+																							FinSi
+																						FinSi
+																					FinSi
+																				FinSi
+																			FinSi
+																		FinSi
+																	FinSi
+																FinSi
+															FinSi
+														FinSi
+													FinSi
+												FinSi
+											FinSi
+										FinSi
+									FinSi
+									
+								FinSi
+							FinSi
+						FinSi
+						
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+finalgoritmo
+	
+	

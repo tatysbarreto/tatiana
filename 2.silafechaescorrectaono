@@ -1,0 +1,14 @@
+Proceso lafechaescorrectaono
+	Definir dia, mes, ano Como Entero;
+	dia<-0;
+	mes<-0;
+	ano<-0;
+	Escribir "digite una fecha empezando por el dia, mes, año";
+	Leer dia, mes, ano;
+	si dia<=30 Entonces
+		//suponiendo todos los meses de 30 dias.
+		Escribir "la fecha es correcta";
+	Sino
+		Escribir "la fecha no es correcta";
+	FinSi
+FinProceso

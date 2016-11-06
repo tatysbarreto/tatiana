@@ -1,0 +1,20 @@
+Proceso N1alCuadrado
+	definir n1,x Como Real;
+	n1<-0;
+	Repetir
+		Escribir "digite el numero";
+		leer n1;
+		si n1>0 Entonces
+			x<-n1*n1;
+			Escribir "el numero al cuadrado es :", x;
+		Sino
+			si n1<0 entonces
+				Escribir "el numero es negativo";
+				
+			FinSi
+			
+		FinSi
+	hasta que n1<0
+	
+FinProceso
+

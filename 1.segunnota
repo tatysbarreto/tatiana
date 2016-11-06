@@ -1,0 +1,36 @@
+Proceso Notasegun
+	definir nota Como Entero;
+	nota<-0;
+	escribir "digite el numero de la nota";
+	leer nota;
+	Segun nota Hacer
+		
+		0:
+			escribir "cero (insuficiente)";
+		1:
+			escribir "uno (insuficiente)";
+		2:
+			escribir "dos (insuficiente)";
+		3:
+			escribir "tres (insuficiente)";
+		4:
+			escribir "cuatro (insuficiente)";
+		5:
+			escribir "cinco (insuficiente)";
+		6:
+			escribir "seis(suficiente)";
+		7:
+			escribir "siete (suficiente)";
+		8:
+			escribir "ocho (suficiente)";
+		9:	
+			escribir "nueve (bien)";
+		10:
+			escribir "diez (bien)";
+			
+		De Otro Modo:
+			Escribir "opicionon invalida";
+			finsegun
+
+FinProceso
+
